@@ -17,12 +17,17 @@ int main()
 	}
 	else
 	{
+
+		int sum = 0;
 		// here we run a while loop for print number. in this loop we add a condition . this condition is when num is largest of 0 . this time loop work . but when num is less then 0 . this time loop stop and every loop our num is decrease 1
 
 		while (num > 0)
 		{
-			printf("%d\n", num);
+			// printf("%d", num);
+			sum += num;
 			num -= 1;
 		}
+
+		printf("The sum is =  %d", sum);
 	}
 };
